@@ -1,1 +1,17 @@
-<p>catalog works!</p>
+<app-header></app-header>
+
+<div class="container row col-12 col-lg-4 col-sm-6 m-lg-5 articleContainer" *ngFor="let currentFood of data">
+        <div class="container row no-gutters p-2 mt-2 mb-2 article">
+          <img class="col-4 col-lg-12" src="{{currentFood.img}}" alt="{{currentFood.name}}" />
+          <div class="col-8 col-lg-12 FoodContent">
+            <h6>{{currentFood.name}}</h6>
+            <p class="pr-3 text-right text-lg-center">{{currentFood.price}} €</p>
+            <div class="text-center">
+              <p>{{currentFood.description}}</p>
+            </div>
+          </div>
+        </div>
+        </div>
+
+
+<app-footer></app-footer>

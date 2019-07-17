@@ -11,7 +11,7 @@ const routes: Routes = [{
   pathMatch: 'full'
 },
 {
-  path:'catalogue',
+  path:'catalog',
   component: CatalogComponent,
   pathMatch: 'full',
 },

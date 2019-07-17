@@ -1,1 +1,37 @@
-<p>contact-prices works!</p>
+<app-header></app-header>
+<div class="container row">
+<div class="col-lg-5 col-12 map">
+    <br/>
+    <h2 class="FormTitle">Find Us</h2>
+    <br/>
+  <div id="frugalmap"></div>
+  <div class="row">
+    <div class="col-6">
+        <br/>
+      <h4>The Place </h4>
+      <p>4 Manhattan Street<br/> Bonlieu</p>
+    </div>
+    <div class="col-6">
+        <br/>
+        <h4>Email and phone</h4>
+        <p>wild-circus@contact.fr<br/> +983029874501</p>
+      </div>
+  </div>
+</div>
+<div class="col-lg-2 col-12"></div>
+<div class="col-lg-5 col-12 tablePrices">
+    <br/>
+    <h2 class="tableTitle">Our Prices</h2>
+    <br/>
+    <table>
+        <tr><td><span class="peoples">Peoples</span></td><td><span class="peoples">Price in $</span></td></tr>
+        <tr *ngFor="let currentPrices of data">
+            <td>{{currentPrices.forWho}}</td>
+            <td>{{currentPrices.price}}</td>
+     </table>
+</div>
+</div>
+
+
+<app-footer></app-footer>
+

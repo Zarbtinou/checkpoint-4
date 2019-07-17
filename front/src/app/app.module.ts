@@ -11,6 +11,10 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule }   from '@angular/forms';
 import { AddPricesComponent } from './add-prices/add-prices.component';
 import { GetpricesComponent } from './getprices/getprices.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { ConfigurationpannelComponent } from './configurationpannel/configurationpannel.component';
+import { AddfoodComponent } from './addfood/addfood.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +25,11 @@ import { GetpricesComponent } from './getprices/getprices.component';
     CatalogComponent,
     ContactPricesComponent,
     AddPricesComponent,
-    GetpricesComponent
+    GetpricesComponent,
+    HeaderComponent,
+    FooterComponent,
+    ConfigurationpannelComponent,
+    AddfoodComponent
   ],
   imports: [
     BrowserModule,

@@ -1,3 +1,10 @@
+<app-header></app-header>
+
+
+
+
+
+
 <div *ngIf="access" >
   <h1>Bienvenue sur l'espace administrateur.</h1>
   <h3>Veuillez vous connecter pour accéder au panneau de configuration</h3>
@@ -28,6 +35,7 @@
             <div *ngIf="Password.errors.required">Champ requis.</div>
           </div>
         </div>
+        
         <p class="buttonSend"><button class="btn btn-dark buttonSend " type="submit">ENVOYER </button></p>
       </form>
     </div>
@@ -35,11 +43,12 @@
 </div>
 </div>
 
-<div *ngIf="!access"> 
-  <h1>Panneau de configuration</h1>
-  <p class="buttonSend"><button class="btn btn-dark " (click)="logout()">Se déconnecter </button></p>
-</div> 
+<div *ngIf="!access">
+    <p class="buttonSend"><button class="btn btn-dark " (click)="logout()">Se déconnecter </button></p>
+    <app-configurationpannel></app-configurationpannel>
+</div>
 
-<app-add-prices></app-add-prices>
 
-<app-getprices></app-getprices>
+
+
+<app-footer></app-footer>

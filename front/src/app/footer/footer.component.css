@@ -1,0 +1,97 @@
+section{
+    background-color: rgb(146, 50, 43);
+    width: 100%;
+    padding-bottom: 1%;
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: #ffe838
+}
+
+
+
+.footerContact {
+    font-size: 0.7rem;
+}
+
+.footerContact h6 {
+    font-size: 0.9rem;
+    margin: 0;
+    text-decoration: underline overline;
+}
+
+.footerContact p {
+    margin: 0;
+}
+
+.socialIcon {
+    width: 100%;
+    height: 30%;
+    margin: 0;
+    transition: fill 0.3s;
+}
+
+.socialIcon:hover, .footerSocial a:focus .socialIcon {
+    fill: white;
+    transition: all 0.3s;
+}
+
+.footerMenu p {
+    font-size: 0.8rem;
+    margin: 2%;
+}
+
+.footerMenu p a {
+    text-decoration: none;
+    color: #ffe838;
+    transition: color 0.3s;
+}
+
+.footerMenu p a:hover, .footerMenu p a:focus {
+    color: white;
+    transition: all 0.3s;
+}
+.socialIcon {
+    width: 10%;
+    fill: #a59627;
+    transition: fill 0.3s;
+}
+
+@media (min-width: 768px) {
+    .socialIcon {
+        width: 12%;
+        margin: 10%;
+    }
+
+    .footerContact {
+        font-size: 0.8rem;
+    }
+
+    .footerMenu p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 992px) {
+
+    section {
+        padding-top: 1%;
+    }
+
+    .footerContact {
+        font-size: 1rem;
+    }
+
+    .footerContact h6 {
+        font-size: 1.2rem;
+    }
+
+    .socialIcon {
+        width: 10%;
+        margin: 10%;
+    }
+
+    .footerMenu p {
+        font-size: 1.2rem;
+    }
+}

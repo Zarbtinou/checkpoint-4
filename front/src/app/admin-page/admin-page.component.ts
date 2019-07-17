@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { TokenService } from '../token.service';
-import { getToken } from '../user';
+import { UsersService } from '../user.service';
 
 @Component({
   selector: 'app-admin-page',
@@ -14,22 +14,29 @@ export class AdminPageComponent implements OnInit {
 
   access:boolean = true;
 
-  constructor(public loginService: TokenService) { }
+  constructor(public loginService: TokenService, public service: UsersService) { }
 
   ngOnInit() {
   }
   onSubmit(value:any){
+    if(this.access = true){
+      this.access = false;
+    }else{
+      this.access = true;
+    }
     let jsonObject = {
       "username": value.username,
       "password": value.password
     }
     this.loginService.login(jsonObject).subscribe(
       () => {
-        if (getToken()!= null){
-          this.access = false;
+        if (this.service.getToken()!= null){
+          
         }
       }
     );
+
+ 
   }
   logout(){
     this.loginService.logout();

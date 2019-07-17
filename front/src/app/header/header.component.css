@@ -1,0 +1,49 @@
+.header{
+    background-color:  rgb(146, 50, 43);
+}
+
+a{
+    color:#ffe838 !important ;
+    font-size: 1.5rem;
+    transition: all 0.3s;
+}
+
+.nav-item{
+    font-size: 1.4rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    text-align: center;
+}
+
+.windowHeader{
+    height:200px !important
+}
+
+.Motto{
+    height: 200px;
+    width: 300px;
+}
+
+.socialIcon {
+    width: 10%;
+    fill: #a59627;
+    transition: fill 0.3s;
+}
+
+.socialIcon:hover, .socialNav a:focus .socialIcon {
+    fill: white;
+    transition: fill 0.3s;
+}
+
+.menuList:hover .menuItem {
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
+
+.menuItem:hover, .menuItem a:focus {
+    opacity: 1 !important;
+    text-shadow: 1px 1px 5px white;
+    transition: all 0.3s;
+}
+
+

@@ -9,7 +9,7 @@ import { Prices } from '../prices';
 })
 export class GetpricesComponent implements OnInit {
 
-  public prices:Prices[]=[];
+  data:Prices[];
   public param_Data:PricesService;
   
 
@@ -20,6 +20,11 @@ export class GetpricesComponent implements OnInit {
 
   ngOnInit() {
     
+    this.myparam_service.getPrices().subscribe(
+      (param_data:Prices[]) =>{
+        this.data =param_data
+      }
+    )
     
   }
     
