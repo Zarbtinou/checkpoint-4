@@ -1,0 +1,12 @@
+/Users/quentin/Desktop/checkpoint-4/back/src/main/java/fr/wildcodeschool/back/security/WebSecurityConfig.java
+/Users/quentin/Desktop/checkpoint-4/back/src/main/java/fr/wildcodeschool/back/controllers/UserController.java
+/Users/quentin/Desktop/checkpoint-4/back/src/main/java/fr/wildcodeschool/back/security/JwtTokenUtil.java
+/Users/quentin/Desktop/checkpoint-4/back/src/main/java/fr/wildcodeschool/back/security/JwtRequestFilter.java
+/Users/quentin/Desktop/checkpoint-4/back/src/main/java/fr/wildcodeschool/back/security/JwtRequest.java
+/Users/quentin/Desktop/checkpoint-4/back/src/main/java/fr/wildcodeschool/back/BackApplication.java
+/Users/quentin/Desktop/checkpoint-4/back/src/main/java/fr/wildcodeschool/back/controllers/AuthController.java
+/Users/quentin/Desktop/checkpoint-4/back/src/main/java/fr/wildcodeschool/back/security/JwtUserDetailsService.java
+/Users/quentin/Desktop/checkpoint-4/back/src/main/java/fr/wildcodeschool/back/entities/User.java
+/Users/quentin/Desktop/checkpoint-4/back/src/main/java/fr/wildcodeschool/back/security/JwtResponse.java
+/Users/quentin/Desktop/checkpoint-4/back/src/main/java/fr/wildcodeschool/back/repositories/UserDAO.java
+/Users/quentin/Desktop/checkpoint-4/back/src/main/java/fr/wildcodeschool/back/security/JwtAuthenticationEntryPoint.java

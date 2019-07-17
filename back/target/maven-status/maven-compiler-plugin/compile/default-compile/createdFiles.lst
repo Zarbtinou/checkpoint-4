@@ -1,0 +1,12 @@
+fr/wildcodeschool/back/security/JwtTokenUtil.class
+fr/wildcodeschool/back/entities/User.class
+fr/wildcodeschool/back/security/JwtResponse.class
+fr/wildcodeschool/back/security/JwtUserDetailsService.class
+fr/wildcodeschool/back/repositories/UserDAO.class
+fr/wildcodeschool/back/controllers/AuthController.class
+fr/wildcodeschool/back/security/WebSecurityConfig.class
+fr/wildcodeschool/back/controllers/UserController.class
+fr/wildcodeschool/back/security/JwtRequest.class
+fr/wildcodeschool/back/BackApplication.class
+fr/wildcodeschool/back/security/JwtRequestFilter.class
+fr/wildcodeschool/back/security/JwtAuthenticationEntryPoint.class
