@@ -58,11 +58,14 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 		// fait office de jeton
 		httpSecurity
 				.csrf().disable() 
-				.authorizeRequests(). //  on autorise tout le monde � consulter les uri suivantes: 
+				.authorizeRequests(). //  on autorise tout le monde � consulter les uri suivantes:
+      antMatchers(HttpMethod.OPTIONS, "/**").permitAll().
 				antMatchers( "/authenticate").permitAll().
 				antMatchers("/register").permitAll().
-      antMatchers(HttpMethod.OPTIONS, "/prices").permitAll().
-      antMatchers(HttpMethod.GET,"/prices").permitAll().
+      antMatchers( "/prices").permitAll().
+      antMatchers( HttpMethod.DELETE,"/prices/{id}").permitAll().
+      antMatchers( HttpMethod.DELETE,"/foods/{id}").permitAll().
+      //antMatchers(HttpMethod.GET,"/prices").permitAll().
       antMatchers(HttpMethod.OPTIONS, "/foods").permitAll().
       antMatchers(HttpMethod.GET, "/foods").permitAll().
 				// toutes les autres n�cessitent un token valide

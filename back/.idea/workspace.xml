@@ -4,12 +4,7 @@
     <list default="true" id="d637fa81-e919-49d2-9e33-5f38e3598d72" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/back/controllers/FoodController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/back/controllers/FoodController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/back/controllers/PricesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/back/controllers/PricesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/back/entities/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/back/entities/Food.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/back/entities/FoodDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/back/entities/FoodDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/back/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/back/security/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/src/app/admin-page/admin-page.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/app/admin-page/admin-page.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/src/app/token.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/app/token.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/src/app/user.ts" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,8 +23,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/fr/wildcodeschool/back/controllers/PricesController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+            <state relative-caret-position="375">
+              <caret line="50" column="55" selection-start-line="50" selection-start-column="55" selection-end-line="50" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -37,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/fr/wildcodeschool/back/security/WebSecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="68" column="43" lean-forward="true" selection-start-line="68" selection-start-column="43" selection-end-line="68" selection-end-column="43" />
+            <state relative-caret-position="304">
+              <caret line="66" column="44" selection-start-line="66" selection-start-column="44" selection-end-line="66" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/fr/wildcodeschool/back/controllers/FoodController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="397">
+              <caret line="63" selection-start-line="63" selection-end-line="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -150,11 +145,11 @@
         <option value="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/back/controllers/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/back/entities/Prices.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/back/controllers/FoodPicturesController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/back/controllers/PricesController.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/back/entities/Food.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/back/entities/FoodDTO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/back/security/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/back/controllers/FoodController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/back/controllers/PricesController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/back/security/WebSecurityConfig.java" />
       </list>
     </option>
   </component>
@@ -305,12 +300,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563287030151</updated>
-      <workItem from="1563287033724" duration="15014000" />
+      <workItem from="1563287033724" duration="16218000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15014000" />
+    <option name="totallyTimeSpent" value="16218000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -322,7 +317,7 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" weight="0.32891566" />
@@ -334,7 +329,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35060242" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35060242" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -459,16 +454,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/wildcodeschool/back/repositories/PricesDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="61" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fr/wildcodeschool/back/entities/FoodPicturesDTO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -542,16 +527,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/wildcodeschool/back/controllers/PricesController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fr/wildcodeschool/back/entities/Prices.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
@@ -598,10 +573,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/wildcodeschool/back/controllers/FoodController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/wildcodeschool/back/repositories/PricesDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="75">
+          <caret line="5" column="61" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/wildcodeschool/back/controllers/PricesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="50" column="55" selection-start-line="50" selection-start-column="55" selection-end-line="50" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -610,8 +595,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fr/wildcodeschool/back/security/WebSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="68" column="43" lean-forward="true" selection-start-line="68" selection-start-column="43" selection-end-line="68" selection-end-column="43" />
+        <state relative-caret-position="304">
+          <caret line="66" column="44" selection-start-line="66" selection-start-column="44" selection-end-line="66" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/wildcodeschool/back/controllers/FoodController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

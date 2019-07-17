@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Prices } from '../prices';
 import { PricesService } from '../prices.service';
+import { Food } from '../food';
+import { GetfoodService } from '../getfood.service';
 
 @Component({
   selector: 'app-configurationpannel',
@@ -9,16 +11,24 @@ import { PricesService } from '../prices.service';
 })
 export class ConfigurationpannelComponent implements OnInit {
   price:Prices = new Prices();
-
   data:Prices[];
   public param_Data:PricesService;
 
-  constructor(private http:PricesService) { this.param_Data=http;}
+  data1:Food[];
+  public param_Data1:GetfoodService;
+
+  constructor(private http:PricesService, private myparam_service:GetfoodService) { this.param_Data=http; this.param_Data1=myparam_service;}
 
   ngOnInit() {
     this.http.getPrices().subscribe(
       (param_data:Prices[]) =>{
         this.data =param_data
+      }
+    )
+
+    this.myparam_service.getFoods().subscribe(
+      (param_data:Food[]) =>{
+        this.data1 =param_data
       }
     )
     }
@@ -34,7 +44,19 @@ export class ConfigurationpannelComponent implements OnInit {
     this.save()
   }
 
-  
+  deletePrice(id:number) {
+    
+    this.http.deletePrice(id).subscribe(data => {
+
+    })
+  }
+
+  deleteFood(id:number) {
+    
+    this.myparam_service.deleteFood(id).subscribe(data => {
+
+    })
+  }
 
   
 

@@ -61,7 +61,7 @@ public class FoodController {
     return foodDAO.save(current);
   }
 
-  @Secured("SUPER_ADMIN")
+
   @DeleteMapping("/foods/{id}")
   public boolean delete(@PathVariable("id") Long p_id) throws Exception{
     foodDAO.deleteById(p_id);

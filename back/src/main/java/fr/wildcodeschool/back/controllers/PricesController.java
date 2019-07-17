@@ -46,9 +46,9 @@ public class PricesController {
     return pricesDAO.save(current);
   }
 
-  @Secured({"SUPER_ADMIN"})
+
   @DeleteMapping("/prices/{id}")
-  public boolean delete(@PathVariable("id") Long p_id) throws Exception {
+  public boolean delete(@PathVariable("id") Long p_id)  {
 
     pricesDAO.deleteById(p_id);
 

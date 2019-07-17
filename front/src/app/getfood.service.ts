@@ -44,6 +44,8 @@ export class GetfoodService {
   
   }
 
-  
+  deleteFood(id:number):Observable<any>{
+    return this.http.delete("http://localhost:8080/foods/"+id);
+  }
 
 }

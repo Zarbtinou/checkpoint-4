@@ -28,7 +28,7 @@
             <td>{{currentPrices.forWho}}</td>
             <td>{{currentPrices.price}}</td>
             <button type="edit" class="btn btn-success editPrice">Edit</button>
-            <button type="delete" class="btn btn-success deletePrice">Delete</button>
+            <button type="delete" class="btn btn-success deletePrice" (click)="deletePrice(currentPrices.id)">Delete</button>
         </table>
     </div>
 </div>
@@ -39,5 +39,21 @@
   <h2>Add food</h2>
   <br/>
 <app-addfood></app-addfood>
+<br/>
+
+<div class="container row col-12 col-lg-4 col-sm-6 m-lg-5 articleContainer" *ngFor="let currentFood of data1">
+    <div class="container row no-gutters p-2 mt-2 mb-2 article">
+      <img class="col-4 col-lg-12" src="{{currentFood.img}}" alt="{{currentFood.name}}" />
+      <div class="col-8 col-lg-12 FoodContent">
+        <h6>{{currentFood.name}}</h6>
+        <p class="pr-3 text-right text-lg-center">{{currentFood.price}} €</p>
+        <div class="text-center">
+          <p>{{currentFood.description}}</p>
+        </div>
+        <button type="delete" class="btn btn-success deletePrice" (click)="deleteFood(currentFood.id)">Delete</button>
+      </div>
+    </div>
+    </div>
+
   
 </div>
