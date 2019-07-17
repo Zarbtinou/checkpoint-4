@@ -5,6 +5,7 @@ public class FoodDTO {
   private String name;
   private Integer price;
   private String description;
+  private String img;
 
   public FoodDTO() {}
 
@@ -30,5 +31,13 @@ public class FoodDTO {
 
   public void setDescription(String description) {
     this.description = description;
+  }
+
+  public String getImg() {
+    return img;
+  }
+
+  public void setImg(String img) {
+    this.img = img;
   }
 }

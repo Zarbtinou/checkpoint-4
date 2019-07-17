@@ -20,7 +20,7 @@ public class FoodController {
   @Autowired
   private FoodDAO foodDAO;
 
-  @Secured("SUPER_ADMIN")
+
   @GetMapping(value="/foods")
   public List<Food> getAll() {return foodDAO.findAll();}
 
@@ -32,6 +32,7 @@ public class FoodController {
     current.setName(p_food.getName());
     current.setDescription(p_food.getDescription());
     current.setPrice(p_food.getPrice());
+    current.setImg(p_food.getImg());
 
     return foodDAO.save(current);
   }
@@ -52,6 +53,9 @@ public class FoodController {
 
     if (p_food.getPrice() != null) {
       current.setPrice(current.getPrice());
+    }
+    if (p_food.getImg() != null) {
+      current.setImg(current.getImg());
     }
 
     return foodDAO.save(current);

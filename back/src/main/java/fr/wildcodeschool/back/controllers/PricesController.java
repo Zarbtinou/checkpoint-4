@@ -26,7 +26,7 @@ public class PricesController {
     Prices current = new Prices();
     current.setForWho(p_prices.getForWho());
     current.setPrice(p_prices.getPrice());
-
+    System.out.println("coucou from russia");
     return pricesDAO.save(current);
   }
 

@@ -61,7 +61,10 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 				.authorizeRequests(). //  on autorise tout le monde � consulter les uri suivantes: 
 				antMatchers( "/authenticate").permitAll().
 				antMatchers("/register").permitAll().
-        antMatchers("/prices").permitAll().
+      antMatchers(HttpMethod.OPTIONS, "/prices").permitAll().
+      antMatchers(HttpMethod.GET,"/prices").permitAll().
+      antMatchers(HttpMethod.OPTIONS, "/foods").permitAll().
+      antMatchers(HttpMethod.GET, "/foods").permitAll().
 				// toutes les autres n�cessitent un token valide
 				anyRequest().authenticated().and().
 				// on s'assure d'utiliser des stateless sessions

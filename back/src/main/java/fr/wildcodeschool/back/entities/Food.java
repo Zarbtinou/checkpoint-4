@@ -13,13 +13,9 @@ public class Food {
   private String name;
   private Integer price;
   private String description;
+  private String img;
 
 
-  @OneToMany(
-    mappedBy = "food",
-    cascade = CascadeType.ALL
-  )
-  private List<FoodPictures> foodPictures;
 
   public Food() {}
 
@@ -50,5 +46,13 @@ public class Food {
 
   public void setDescription(String description) {
     this.description = description;
+  }
+
+  public String getImg() {
+    return img;
+  }
+
+  public void setImg(String img) {
+    this.img = img;
   }
 }
